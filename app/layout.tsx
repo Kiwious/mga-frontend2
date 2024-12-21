@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/widgets/Header";
+import Footer from "@/widgets/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-gradient-to-b from-primary to-secondary h-screen">
+      <body className="bg-gradient-to-b flex flex-col justify-between from-primary to-secondary min-h-screen w-full">
         <Header />
-        {children}
+        <div className="py-4 md:px-16 px-4 md:pt-12 grow">{children}</div>
+        <Footer />
       </body>
     </html>
   );
