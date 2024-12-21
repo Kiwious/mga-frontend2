@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <div className="text-4xl font-semibold">
-        Willkommen auf der Startseite MGA!
+        Willkommen auf der Startseite der MGA!
       </div>
       <div className="flex md:flex-row flex-col gap-4">
         <Card title="Über uns">
