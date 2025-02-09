@@ -12,7 +12,6 @@ interface HeaderItemProps {
 const HeaderItem = ({ label, href }: HeaderItemProps) => {
   const path = usePathname();
   const active = path === href;
-  console.log("patrh", path);
   return (
     <Link
       href={href}
