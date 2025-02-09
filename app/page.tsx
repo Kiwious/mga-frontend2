@@ -12,7 +12,7 @@ export default function Home() {
           offiziell gegründet wurde.Sie ist der offizielle Nachverfolger des
           Erfolgreichen Discord Servers &quot;Waterworld&quot;.Unsere Agentur
           spezialisiert sich hierbei auf die Marketing, Event- und Giveaway
-          Veranstaltung Ihres Discord Servers!Ebenso sind wir in Bereichen wie
+          Veranstaltung Ihres Discord Servers! Ebenso sind wir in Bereichen wie
           Programmierung fester Bestandteil auf Discord und ohne uns wären viele
           kleine Server gar nicht denkbar.
         </Card>
